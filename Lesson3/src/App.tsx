@@ -15,7 +15,7 @@ const fib: fibFunc = (n) => {
 const myNum: number = 38;
 function App() {
   const [count, setCount] = useState<number>(0);
-  const [user, setUser] = useState<User[] | null>(null);
+  const [user] = useState<User[] | null>(null);
 
   useEffect(() => {
     // mount->unmount->mount
